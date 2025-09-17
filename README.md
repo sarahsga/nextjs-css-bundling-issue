@@ -1,6 +1,6 @@
 This repo reproduces the issue in https://github.com/vercel/next.js/issues/16630
 
-- `git checkout 0a1abf1` (this is the commit that reproduces the issue)
+- `git checkout 7d1bd9a` and `git checkout 375e32c` (this is the commit that reproduces the issue)
 - `yarn` to install the older version of nextjs specified in package.json
 Compare the output of / path in 
 - yarn dev
